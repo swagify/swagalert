@@ -1,18 +1,19 @@
 {
-  "name": "sweetalert",
-  "homepage": "http://tristanedwards.me/sweetalert",
+  "name": "swagalert",
+  "homepage": "https://github.com/swagify/swagalert",
   "authors": [
+    "Swagify (https://github.com/swagify)",
     "Tristan Edwards <tristan.edwards@me.com> (http://tristanedwards.me)"
   ],
   "description": "A beautiful replacement for JavaScript's alert.",
-  "main": ["lib/sweet-alert.js", "lib/sweet-alert.css"],
+  "main": ["lib/swag-alert.js", "lib/swag-alert.css"],
   "keywords": [
     "alert",
     "modal"
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:t4t5/sweetalert.git"
+    "url": "git@github.com:swagify/swagalert.git"
   },
   "license": "MIT"
 }
