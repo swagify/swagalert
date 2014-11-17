@@ -6,13 +6,13 @@
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-  <title>SweetAlert</title>
+  <title>SwagAlert</title>
 
   <link rel="stylesheet" href="./example.css">
 
   <!-- This is what you need -->
-  <script src="../lib/sweet-alert.js"></script>
-  <link rel="stylesheet" href="../lib/sweet-alert.css">
+  <script src="../lib/swag-alert.js"></script>
+  <link rel="stylesheet" href="../lib/swag-alert.css">
   <!--.......................-->
 
 </head>
@@ -25,7 +25,7 @@
 
 <!-- What does it do? -->
 <h3>So... What does it do?</h3>
-<p>Here’s a comparison of a standard error message. The first one uses the built-in <strong>alert</strong>-function, while the second is using <strong>sweetAlert</strong>.</p>
+<p>Here’s a comparison of a standard error message. The first one uses the built-in <strong>alert</strong>-function, while the second is using <strong>swagAlert</strong>.</p>
 
 <div class="showcase normal">
 	<h4>Normal alert</h4>
@@ -40,20 +40,20 @@
 </div>
 
 <div class="showcase sweet">
-	<h4>Sweet Alert</h4>
+	<h4>Swag Alert</h4>
 	<button>Show error message</button>
 
 	<h5>Code:</h5>
-	<pre>sweetAlert(<span class="str">"Oops..."</span>, <span class="str">"Something went wrong!"</span>, <span class="str">"error"</span>);</pre>
+	<pre>swagAlert(<span class="str">"Oops..."</span>, <span class="str">"Something went wrong!"</span>, <span class="str">"error"</span>);</pre>
 </div>
 
-<p>Pretty cool huh? SweetAlert automatically centers itself on the page and looks great no matter if you're using a desktop computer, mobile or tablet. It's even highly customizeable, as you can see below!</p>
+<p>Pretty cool huh? SwagAlert automatically centers itself on the page and looks great no matter if you're using a desktop computer, mobile or tablet. It's even highly customizeable, as you can see below!</p>
 
 
 <!-- Examples -->
 <h3>More examples</h3>
 
-<p class="center">In these examples, we're using the shorthand function <strong>swal</strong> to call sweetAlert.</p>
+<p class="center">In these examples, we're using the shorthand function <strong>swal</strong> to call swagAlert.</p>
 
 <ul class="examples">
 
@@ -156,13 +156,13 @@
 <h3 id="download-section">Download & install</h3>
 
 <div class="center-container">
-	<p class="center"><b>Method 1:</b> Install through bower:</p>
+	<p class="center"><b>Method 1:</b> Install through bower (coming soon™):</p>
 	<pre class="center">$ bower install sweetalert</pre>
 </div>
 
-<p class="center"><b>Method 2:</b> Download the sweetAlert <strong>CSS</strong> and <strong>JavaScript</strong> files.</p>
+<p class="center"><b>Method 2:</b> Download the swagAlert <strong>CSS</strong> and <strong>JavaScript</strong> files.</p>
 
-<a class="button" href="https://github.com/t4t5/sweetalert/archive/master.zip" download>Download files</a>
+<a class="button" href="https://github.com/swagify/swagalert/archive/master.zip" download>Download files</a>
 
 <ol>
 	<li>
@@ -172,7 +172,7 @@
 	</li>
 
 	<li>
-		<p>Call the sweetAlert-function after the page has loaded</p>
+		<p>Call the swagAlert-function after the page has loaded</p>
 		<pre>swal({
 &nbsp;&nbsp;title: <span class="str">"Error!"</span>,
 &nbsp;&nbsp;text: <span class="str">"Here's my error message!"</span>,
@@ -188,7 +188,7 @@
 <!-- Configuration -->
 <h3>Configuration</h3>
 
-<p class="center">Here are the keys that you can use if you pass an object into sweetAlert:</p>
+<p class="center">Here are the keys that you can use if you pass an object into swagAlert:</p>
 
 <table>
 	<tr class="titles">
@@ -215,7 +215,7 @@
 	<tr>
 		<td><b>type</b></td>
 		<td><i>null</i></td>
-		<td>The type of the modal. SweetAlert comes with 4 built-in types which will show a corresponding icon animation: "<strong>warning</strong>", "<strong>error</strong>", "<strong>success</strong>" and "<strong>info"</strong>. It can either be put in the array under the key "type" or passed as the third parameter of the function.</td>
+		<td>The type of the modal. SwagAlert comes with 4 built-in types which will show a corresponding icon animation: "<strong>warning</strong>", "<strong>error</strong>", "<strong>success</strong>" and "<strong>info"</strong>. It can either be put in the array under the key "type" or passed as the third parameter of the function.</td>
 	</tr>
 	<tr>
 		<td><b>allowOutsideClick</b></td>
@@ -245,7 +245,7 @@
 	<tr>
 		<td><b>closeOnConfirm</b></td>
 		<td><i>true</i></td>
-		<td>Set to <i>false</i> if you want the modal to stay open even if the user presses the "Confirm"-button. This is especially useful if the function attached to the "Confirm"-button is another SweetAlert.</td>
+		<td>Set to <i>false</i> if you want the modal to stay open even if the user presses the "Confirm"-button. This is especially useful if the function attached to the "Confirm"-button is another SwagAlert.</td>
 	</tr>
 	<tr>
 		<td><b>imageUrl</b></td>
@@ -267,7 +267,7 @@
 
 <!-- Contribute -->
 <h3>Contribute</h3>
-<p>SweetAlert was created by <a href="http://tristanedwards.me" target="_blank">Tristan Edwards</a>, you can follow him on <a href="https://twitter.com/t4t5" target="_blank" class="twitter">Twitter</a> or <a href="https://dribbble.com/tristanedwards" target="_blank" class="dribbble">Dribbble</a> for updates and other cool projects!</p>
+<p> was created by <a href="http://tristanedwards.me" target="_blank">Tristan Edwards</a>, you can follow him on <a href="https://twitter.com/t4t5" target="_blank" class="twitter">Twitter</a> or <a href="https://dribbble.com/tristanedwards" target="_blank" class="dribbble">Dribbble</a> for updates and other cool projects!</p>
 <p>Feel free to fork sweetAlert on <a href="https://github.com/t4t5/sweetalert" class="github">GitHub</a> if you have any features that you want to add!</p>
 
 
