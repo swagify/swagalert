@@ -8,7 +8,7 @@ An awesome replacement for JavaScript's alert.
 
 #Usage
 
-You can install SweetAlert through bower:
+You can install SweetAlert through bower (swagalert will be available, soon™):
 
 ```bash
 bower install sweetalert
@@ -17,8 +17,8 @@ bower install sweetalert
 Alternatively, download the package and reference the JavaScript and CSS files manually:
 
 ```html
-<script src="lib/sweet-alert.min.js"></script>
-<link rel="stylesheet" type="text/css" href="lib/sweet-alert.css">
+<script src="lib/swag-alert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="lib/swag-alert.css">
 ```
 
 #Examples
@@ -26,19 +26,19 @@ Alternatively, download the package and reference the JavaScript and CSS files m
 The most basic message:
 
 ```javascript
-sweetAlert("Hello world!");
+swagAlert("Hello world!");
 ```
 
 A message signaling an error:
 
 ```javascript
-sweetAlert("Oops...", "Something went wrong!", "error");
+swagAlert("Oops...", "Something went wrong!", "error");
 ```
 
 A warning message, with a function attached to the "Confirm"-button..
 
 ```javascript
-sweetAlert({
+swagAlert({
   title: "Are you sure?",
   text: "You will not be able to recover this imaginary file!",
   type: "warning",
