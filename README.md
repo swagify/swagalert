@@ -1,4 +1,4 @@
-#SweetAlert
+#SwagAlert -- SweetAlert With Swag
 
 An awesome replacement for JavaScript's alert.
 
